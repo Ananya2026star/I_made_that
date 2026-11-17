@@ -6,7 +6,7 @@ int main(void)
 {
     srand(time(NULL));
     int secret_number = rand() % 100 +1;
-    printf("%i\n", secret_number);
+    printf("%i\n", secret_number); // remove this before running if you want to avoid spoiling the secret number. I added this line to just check it
     
     int guess_number;
 do
